@@ -1,0 +1,18 @@
+.featCard__icons,
+.featCard__btn {
+  visibility: hidden;
+}
+
+.featCard__wrapper:hover {
+  background: #2f1ac4;
+  transition: 0.4s;
+}
+.featCard__wrapper:hover .featCard__text {
+  transition: 0.4s;
+  color: white;
+}
+
+.featCard__wrapper:hover .featCard__icons,
+.featCard__wrapper:hover .featCard__btn {
+  visibility: visible;
+}
