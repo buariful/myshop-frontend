@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       {/* top bar */}
-      <section className="bg-secondary text-white text-[12px]">
+      <section className="bg-secondary text-white text-xs">
         <div className="container py-2">
           <div className="sm:px-10 px-2 flex sm:justify-between justify-around items-center flex-wrap gap-3">
             <ul className="center gap-4 sm:gap-8 ">
@@ -36,7 +36,7 @@ const Navbar = () => {
       </section>
 
       {/* bottom nav bar */}
-      <section className="sticky top-0 py-3">
+      <section className="py-3">
         <div className="container px-2">
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-xl text-heading2">MyShop</h3>

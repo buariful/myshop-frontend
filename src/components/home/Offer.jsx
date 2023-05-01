@@ -2,17 +2,19 @@ import React from "react";
 import SectionTitle from "../../widgets/SectionTitle";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Buttons from "../../widgets/Buttons";
+import "./offer.css";
 
 const Offer = () => {
   return (
-    <>
+    <section className="mb-12">
       <SectionTitle text="What we offer" />
 
-      <div className="container px-3 mb-4">
-        <div className="center gap-4 flex-wrap">
+      {/* top section */}
+      <div className="container px-3">
+        <div className="center gap-4 flex-wrap  mb-12">
           <div className="flex flex-col gap-2 justify-center max-w-[350px] shadow-md p-4">
             <img
-              src="https://res.cloudinary.com/dygolqxi7/image/upload/…82554171/myshop%28furniture%29/image_1_pnpqvr.png"
+              src={require("../../img/24-hours-support 1.png")}
               alt=""
               className="max-w-[50px] mx-auto"
             />
@@ -22,25 +24,27 @@ const Offer = () => {
               amet doloribus ea laudantium repellendus magnam?
             </p>
           </div>
+
           <div className="flex flex-col gap-2 justify-center max-w-[350px] shadow-md p-4">
             <img
-              src="https://res.cloudinary.com/dygolqxi7/image/upload/…82554171/myshop%28furniture%29/image_1_pnpqvr.png"
+              src={require("../../img/free-delivery 1.png")}
               alt=""
               className="max-w-[50px] mx-auto"
             />
-            <h5 className="text-heading font-semibold">24/7 Service</h5>
+            <h5 className="text-heading font-semibold">Free Delivery</h5>
             <p className="text-gray-500 text-start">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               amet doloribus ea laudantium repellendus magnam?
             </p>
           </div>
+
           <div className="flex flex-col gap-2 justify-center max-w-[350px] shadow-md p-4">
             <img
-              src="https://res.cloudinary.com/dygolqxi7/image/upload/…82554171/myshop%28furniture%29/image_1_pnpqvr.png"
+              src={require("../../img/premium-quality 1.png")}
               alt=""
               className="max-w-[50px] mx-auto"
             />
-            <h5 className="text-heading font-semibold">24/7 Service</h5>
+            <h5 className="text-heading font-semibold">Premium quality</h5>
             <p className="text-gray-500 text-start">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               amet doloribus ea laudantium repellendus magnam?
@@ -49,13 +53,20 @@ const Offer = () => {
         </div>
       </div>
 
-      <div className="bg-light-Pink py-3 mb-4">
+      {/* bottom seciton */}
+      <div className="bg-light-Pink py-10 mb-4">
         <div className="container px-3">
-          <div className="center gap-4">
-            <div>
+          <div className="center flex-col md:flex-row gap-4">
+            <div className="relative">
               <img
-                src="https://res.cloudinary.com/dygolqxi7/image/upload/…82554171/myshop%28furniture%29/image_1_pnpqvr.png"
+                src={require("../../img/Ellipse.png")}
                 alt=""
+                className="max-w-[300px]"
+              />
+              <img
+                src={require("../../img/pink-sofa.png")}
+                alt=""
+                className="max-w-[230px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
               />
             </div>
 
@@ -101,7 +112,7 @@ const Offer = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
