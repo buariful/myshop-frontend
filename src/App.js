@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Navbar from "./components/shared/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/shared/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
