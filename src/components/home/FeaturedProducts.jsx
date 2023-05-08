@@ -1,8 +1,9 @@
 import React from "react";
-import SectionTitle from "../../widgets/SectionTitle";
+
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiSelfLove } from "react-icons/gi";
 import "./featuredProduct.css";
+import { SectionTitle } from "../../widgets/Titles";
 
 const FeaturedProducts = () => {
   const featuredCard = (

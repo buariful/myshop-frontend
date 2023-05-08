@@ -1,8 +1,8 @@
 import React from "react";
-import SectionTitle from "../../widgets/SectionTitle";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Buttons from "../../widgets/Buttons";
 import "./offer.css";
+import { SectionTitle } from "../../widgets/Titles";
 
 const Offer = () => {
   return (

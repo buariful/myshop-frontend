@@ -1,7 +1,7 @@
 import React from "react";
-import SectionTitle from "../../widgets/SectionTitle";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiSelfLove } from "react-icons/gi";
+import { SectionTitle } from "../../widgets/Titles";
 
 const LatestProduct = () => {
   let number = [1, 2, 3, 4, 5];
